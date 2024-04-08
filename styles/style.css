@@ -67,9 +67,14 @@ ol {
 }
 
 .result__video-container {
+  height: 386px;
+  margin-bottom: 16px;
 }
 
 .result__video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .search-form {
@@ -111,6 +116,7 @@ ol {
 }
 
 .title {
+  margin-bottom: 26px;
 }
 
 .content__accent {
@@ -121,13 +127,16 @@ ol {
   overflow: hidden auto;
 }
 
-.content__list-item {
+.content__list-item:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 .content__card-link {
 }
 
 .content__video-card {
+  display: grid;
+  grid-template-columns: 1fr 194px;
 }
 
 .content__video-card-description-container {
@@ -140,6 +149,9 @@ ol {
 }
 
 .content__video-card-thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .more-button {
