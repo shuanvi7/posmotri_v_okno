@@ -60,7 +60,7 @@ ol {
 
 .button:focus-visible {
   outline: 1px solid #fff;
-  outline-offset: 1px;
+  outline-offset: -3px;
 }
 
 .visually-hidden {
@@ -110,7 +110,7 @@ ol {
 }
 
 .search-form__label {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 5px;
   cursor: pointer;
@@ -135,6 +135,11 @@ ol {
   font-size: inherit;
   background-color: transparent;
   appearance: none;
+}
+
+.search-form__textfield:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
 }
 
 .search-form__checkbox-list {
@@ -217,6 +222,7 @@ ol {
 
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
+  outline-offset: -1px;
 }
 
 .content__video-card {
