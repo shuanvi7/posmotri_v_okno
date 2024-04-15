@@ -9,6 +9,10 @@ html {
 }
 
 .page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -78,7 +82,7 @@ ol {
   grid-template-columns: 711px 399px;
   align-items: flex-end;
   column-gap: 30px;
-  padding: 136px 30px;
+  padding: 0 30px;
 }
 
 .result__video-container {
